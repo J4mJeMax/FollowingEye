@@ -36,4 +36,4 @@ const follow = event => {
     let percent = coordsTab[0]/halfWidth;
     document.getElementById('dark-circle').style.marginLeft = (limits[1]*percent/2)+"px";
   }
-};yId('dark-animation-screen').addEventListener('onmousemove', follow(event));
+}
